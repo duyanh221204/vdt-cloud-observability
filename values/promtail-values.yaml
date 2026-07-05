@@ -1,0 +1,11 @@
+config:
+  clients:
+    # Trỏ URL về tên Service của Loki
+    - url: http://loki.observability.svc.cluster.local:3100/loki/api/v1/push
+resources:
+  requests:
+    cpu: 30m
+    memory: 64Mi
+  limits:
+    cpu: 100m
+    memory: 128Mi
