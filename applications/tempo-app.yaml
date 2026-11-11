@@ -12,7 +12,7 @@ spec:
       helm:
         valueFiles:
         - $values/values/tempo-values.yaml
-    - repoURL: https://github.com/duyanh221204/cloud-observability.git
+    - repoURL: https://github.com/duyanh221204/vdt-cloud-observability.git
       targetRevision: HEAD
       ref: values
   destination:
