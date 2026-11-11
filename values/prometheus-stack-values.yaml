@@ -77,7 +77,6 @@ alertmanager:
         memory: 128Mi
         cpu: 100m
 
-# Giảm tải API server
 kube-state-metrics:
   resources:
     requests:
